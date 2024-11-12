@@ -1,0 +1,29 @@
+.container {
+    width:560px;
+    margin: auto;
+    padding:20px;
+}
+.container h1 {
+    text-align: center;
+}
+.controls input {width:500px;}
+.title {width:450px;}
+.block {
+    border:2px solid grey;
+    margin-top:10px;
+    text-transform: capitalize;
+    padding:10px;
+    display:flex;
+    justify-content: space-between;
+}
+.remove button {
+    background-color: red;
+    color:white;
+    border: none;
+    border-radius: 12px;
+    padding: 8px 12px;
+}
+
+.title:hover {
+    cursor: pointer;
+}
